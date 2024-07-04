@@ -61,7 +61,7 @@ h1 {
 
 }
 
-h2 {
+.h2h {
     font-family: "Bebas Neue", sans-serif; 
     font-size: 20px;
     font-optical-sizing: auto;
@@ -97,5 +97,26 @@ h2 {
 
 .presentation {
 border: 1px solid black;
-height: 100vh;
+min-height: 100vh;
+}
+
+/* Configurações da primeira sessão */
+
+#sec1 {
+    background-color: black;
+}
+
+#sec1 h2, p{
+    display: inline;
+    text-align: right;
+    color: rgb(255, 255, 255);
+}
+
+#sec1 > img {
+    width: 70vh;
+    float: right;
+    margin-top: 17.8%;
+    /* filter:drop-shadow(1px 0px 20px rgb(0, 0, 0));   */
+    margin-right: -210px;
+
 }
