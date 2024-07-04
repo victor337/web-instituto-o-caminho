@@ -29,11 +29,22 @@ header {
 nav {
     background-color: var(--purple);
     margin-top: 0px;
+    padding-bottom: 5px;
 }
 .logonavbar {
     width: 22vh;
     height: 20vh;
-    float: left;  
+    float: left; 
+    padding-top: 40px;
+    filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.623));
+}
+
+.logonavbarr {
+    width: 22vh;
+    height: 20vh;
+    float: right;
+    padding-top: 40px;
+    filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.623));  
 }
 
 h1 {
@@ -46,6 +57,7 @@ h1 {
     position: relative;
     color: white;
     padding-top: 1%;
+    filter: drop-shadow(4px 1px 10px rgba(0, 0, 0, 0.705)) 
 
 }
 
@@ -59,6 +71,7 @@ h2 {
     position: relative;
     color: white;
     padding-bottom: 1%;
+    filter: drop-shadow(4px 1px 10px rgba(0, 0, 0, 0.705))
 }
 .links {
     margin-top: 1em;
@@ -66,17 +79,20 @@ h2 {
     justify-content: center;   
 }
 .links > a {
-    margin: 1%;
+    margin-left: 1%;
     position: relative;
     font-family: "Inter Tight", sans-serif;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 600;
     color: white;
     text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+.links > a:hover {
+    background-color: #bb71db65;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
 }
 
 .presentation {
