@@ -18,15 +18,16 @@
 
 html, body { 
     min-height: 100vh;
-    background-color: white;
 }
 header {
     min-height: 20vh;
+    min-width: 100vh;
     background-color: var(--purple);
     margin: 0;
 }
 
 nav {
+    min-width: 100vh;
     background-color: var(--purple);
     margin-top: 0px;
     padding-bottom: 5px;
@@ -103,20 +104,53 @@ min-height: 100vh;
 /* Configurações da primeira sessão */
 
 #sec1 {
-    background-color: black;
+    background-image: url('../Images/fundo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #sec1 h2, p{
-    display: inline;
-    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
     color: rgb(255, 255, 255);
 }
 
 #sec1 > img {
-    width: 70vh;
+    width: 80vh;
     float: right;
-    margin-top: 17.8%;
-    /* filter:drop-shadow(1px 0px 20px rgb(0, 0, 0));   */
-    margin-right: -210px;
+    margin-top: 6%;
+    /* filter:drop-shadow(1px 0px 20px rgb(59, 59, 59));   */
+    margin-right: -180px;
+
+} 
+
+#sec1 h2{
+    font-size: 110px;
+    text-align: center;
+    
+}
+
+#sec1 p {
+    /* border: 1px solid red; */
+    font-size: 35px;
+    margin-top: 2%;
 
 }
+
+#q {
+    /* border: 1px solid red; */
+    margin-top: 10%;
+
+}
+
+#s {
+    /* border: 1px solid red; */
+    padding-left: 3%;
+    margin-top: -1%;
+}
+
+#block {
+    margin-left: 7%;
+} 
