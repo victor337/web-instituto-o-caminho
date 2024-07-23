@@ -97,8 +97,11 @@ h1 {
 }
 
 .presentation {
-border: 1px solid black;
+border: 1px solid white;
 min-height: 100vh;
+background-color: black;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Configurações da primeira sessão */
@@ -172,6 +175,11 @@ min-height: 100vh;
     text-align: center;
 }
 
+.presentation h3 {
+    text-align: center;
+    font-size: 50px;
+}
+
 .presentation p {
     /* border: 1px solid red; */
     font-size: 30px;
@@ -226,4 +234,29 @@ min-height: 100vh;
     text-align: center;
     color: black;
     margin: 10px;
+}
+
+.picz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation .p {
+    padding-top: 0px;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+.presentation #hh {
+
+    font-size: 20px;
+}
+
+.presentation #h1h {
+    font-size: 70px;
+}
+#inst {
+    padding-left: 30px;
 }
