@@ -97,7 +97,7 @@ h1 {
 }
 
 .presentation {
-border: 1px solid white;
+border: 1px solid black;
 min-height: 100vh;
 background-color: black;
 color: white;
@@ -111,6 +111,7 @@ font-family: Arial, Helvetica, sans-serif;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    border-bottom: 1px solid white;
 }
 
 #sec1 h2, p{
@@ -143,7 +144,7 @@ font-family: Arial, Helvetica, sans-serif;
 #q {
     /* border: 1px solid red; */
     margin-top: 10%;
-    filter: drop-shadow(0px -3px 8px rgba(139, 139, 139, 0.719));
+    /* filter: drop-shadow(0px -3px 8px rgba(139, 139, 139, 0.719)); */
 
 }
 
@@ -151,7 +152,7 @@ font-family: Arial, Helvetica, sans-serif;
     /* border: 1px solid red; */
     padding-left: 3%;
     margin-top: -1%;
-    filter: drop-shadow(0px -3px 8px rgba(139, 139, 139, 0.719));
+    /* filter: drop-shadow(0px -3px 8px rgba(139, 139, 139, 0.719)); */
 }
 
 #block {
@@ -175,10 +176,6 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.presentation h3 {
-    text-align: center;
-    font-size: 50px;
-}
 
 .presentation p {
     /* border: 1px solid red; */
@@ -193,11 +190,11 @@ font-family: Arial, Helvetica, sans-serif;
 .container {
     display: flex;
     justify-content: space-around;
-    background-color:  #302e2e;
+    background-color:  #c465ec70;
     height: 565px;
-    border-radius: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-radius: 0% 7%;
+    margin-left: 0px;
+    margin: 0px;
 }
 
 .card {
@@ -211,14 +208,15 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 33px;
+    color: black;
 }
 
 .card img {
 	width: 100%;
 	height: 45%;
 	margin-bottom: 10px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 30px 30px 0px 0px;
     
 }
 
@@ -236,27 +234,96 @@ font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
 }
 
-.picz {
+.presentation h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    font-size: 60px;
+}
+
+.primeira {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+
 }
 
-.presentation .p {
-    padding-top: 0px;
-    text-align: left;
-    color: white;
-    font-size: 25px;
+.pix00{
+    display: block;
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+    width: 100vh;
+   
 }
 
-.presentation #hh {
+.pix01 {
+    background-color: #be37f89c;
+    margin-right: 0px;
+    margin-left: 30px;
+    border-radius: 30% 0%;
+    height: 60vh;
+    width: 100vh;
+  
+} 
 
-    font-size: 20px;
+#cp {
+    margin-top: 35%;
+    font-size: 80px;
 }
 
-.presentation #h1h {
-    font-size: 70px;
+.p1 {
+    font-size: 35px;
+   
 }
-#inst {
-    padding-left: 30px;
+
+.p2 {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.inst1 {
+    padding-left: 10px;
+}
+
+.inst {
+    margin-left: 3px;
+}
+
+.insta {
+    margin-left: 28%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#presentation1 h2 {
+    margin-bottom: 2%;
+}
+
+#presentation1 h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+}
+
+#presentation1 p {
+    font-size: 30px;
+    margin: 3% 20% 3% 20%;
+}
+
+#c1 {
+    color: #8100b8;
+}
+
+#c2{
+    color: rgb(221, 201, 15);
+}
+
+#c3 {
+    color: green;
 }
