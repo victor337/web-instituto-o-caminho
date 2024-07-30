@@ -327,3 +327,57 @@ font-family: Arial, Helvetica, sans-serif;
 #c3 {
     color: green;
 }
+
+.presentation #ult {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+form {
+    margin: auto;
+    width: 700px;
+    height: 100%;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+
+form div {
+    margin-top: 1em;
+    margin-left: 0px;
+}
+
+label {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 45%;
+    height: 25px;
+    padding: 6px;
+    margin-bottom: 30px;
+    border-radius: 100px;
+}
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 150px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
